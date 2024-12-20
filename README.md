@@ -32,8 +32,6 @@ The dataset includes:
 ---
 
 ## Project Structure
-
-```plaintext
 Movie-Rating-Prediction/
 ├── data/
 │   ├── train.csv
@@ -46,12 +44,11 @@ Movie-Rating-Prediction/
 ├── README.md
 ├── requirements.txt
 └── .gitignore 
----
 
 ## Installation
 
 ### Install dependencies:
-```bash
+bash
 pip install -r requirements.txt
 # For Linux/Mac:
 python -m venv env
@@ -61,17 +58,20 @@ source env/bin/activate
 python -m venv env
 .\env\Scripts\activate
 
-This provides the correct code format for the **Installation** section in the `README.md` file. Let me know if you need any further adjustments!
+This provides the correct code format for the **Installation** section in the README.md file. Let me know if you need any further adjustments!
 ## Usage
 
 ### Running the Analysis:
-Open the Jupyter Notebook at `notebooks/analysis.ipynb` to explore the data, feature engineering, and modeling.
+Open the Jupyter Notebook at notebooks/analysis.ipynb to explore the data, feature engineering, and modeling.
 
 ### To train the model from scratch:
-```bash
+bash
 python src/model.py
 
 This is now in the appropriate format for your `README.md`. Let me know if you need further changes!
+
+
+
 
 
 ## Models and Results
